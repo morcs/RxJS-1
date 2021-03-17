@@ -5,7 +5,7 @@
 Converts an Observable sequence to a ES2015 compliant promise.
 
 #### Arguments
-1. `[promiseCtor]` *(Promise)*: An ES2015 compliant Promise that can be created.  This is optional.  If your runtime already supports ES2015 promises, you do not need to fill in this parameter.  Alternatively you can specify an ES2015 complaint promise via `Rx.config.Promise`
+1. `[promiseCtor]` *(Promise)*: An ES2015 compliant Promise that can be created.  This is optional.  If your runtime already supports ES2015 promises, you do not need to fill in this parameter.  Alternatively you can specify an ES2015 compliant promise via `Rx.config.Promise`
 
 #### Returns
 *(`Promise`)*: An ES2015 compliant promise which contains the last value from the Observable sequence. If the Observable sequence is in error, then the Promise will be in the rejected stage. If the sequence is empty, the Promise will not resolve.
